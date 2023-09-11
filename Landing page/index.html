@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Landing Page</h1>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome To Our Landing Page</h2>
+            <p>Discover Amazing features and learn more about Our Company.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <h3>Incorporated association</h3>
+                <p>Each incorporated association is formed to undertake particular activities or pursue a specific
+                    object as set out in the association's rules (often known as the constitution). The rules provide a
+                    unique framework which outlines how the association is operated and managed by its members.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <h3>Artificial person</h3>
+                <p>Company is Juristic, artificial, legal person – A company is also called an artificial person or a
+                    legal person because it is registered under the company laws of India and is given a distinctive
+                    identity separate from the promoters or shareholders who own it..</p>
+            </div>
+
+            <!-- Add more feature items as needed -->
+
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Learn about company. A company, abbreviated as co., is a legal entity representing an association of
+                people, whether natural, legal or a mixture of both, with a specific objective. Company members share a
+                common purpose and unite to achieve specific, declared goals. Companies take various forms, such as:
+
+            <p>voluntary associations, which may include nonprofit organizations</p>
+            <p>business entities, whose aim is generating profit</p>
+            <p>financial entities and banks</p>
+            <p>programs or educational institutions</p>
+            </p>
+        </div>
+    </section>
+
+    <!-------------- contact system  ------------->
+  <section id="contact" class="contact">
+    <div class="main-text scroll-scale">
+      <span>Ask me Questions</span>
+      <h2>Contact Me</h2>
+    </div>
+
+    <form class="scroll-bottom" onsubmit="sendEmail(); reset(); return flase;">
+      <input type="text" id="name" placeholder="Your Name" />
+      <input type="email" id="email" placeholder="Your Email" />
+      <input type="text" id="address" placeholder="Your Address" />
+      <input type="number" id="mobile" placeholder="Mobile Number" />
+      <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <div class="btn-box formBtn">
+        <button type="submit" class="btn">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2023 singhmanjeet1556@gmail.com | All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.css"></script>
+</body>
+
+</html>
